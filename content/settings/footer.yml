@@ -1,0 +1,13 @@
+exceedText: Our centres provide high quality education and care.
+exceedTextLong: >-
+  Our educational program, practices, policies and procedures are to a high
+  standard for all our centres.
+exceedLogo: /images/uploads/high-quality-logo-new.png
+handbookImage: /images/uploads/handbook.jpg
+handbookDownload:
+  - file: /images/uploads/digital_greatstart_handbook_eastmalvern.pdf
+    title: East Malvern
+  - file: /images/uploads/digital_greatstart_handbook_mildura.pdf
+    title: Mildura
+  - file: /images/uploads/greatstart_handbook_milduracentral.pdf
+    title: Mildura Central

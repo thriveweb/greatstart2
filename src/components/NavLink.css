@@ -1,0 +1,22 @@
+.NavLink {
+  padding: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-weight: 500;
+  transition: color 0.2s, border-bottom-color 0.2s;
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 2px solid;
+  border-bottom-color: transparent;
+  position: relative;
+}
+
+.NavLink:hover,
+.NavLink:focus {
+  border-bottom-color: currentColor;
+}
+
+.NavLink svg {
+  margin-right: 0.3em;
+}

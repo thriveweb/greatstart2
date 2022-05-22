@@ -1,0 +1,162 @@
+.Footer {
+  padding: 5rem 0 2rem;
+  background: #ede9e0;
+  background: var(--lightGrey);
+  position: relative;
+  z-index: 1;
+}
+
+.Footer--upper {
+  margin-bottom: 2rem;
+  background: #ede9e0;
+  background: var(--lightGrey);
+}
+
+.Footer--upper--container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-centres {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-centres .Footer--column {
+  margin-right: 4rem;
+}
+
+.Footer--column {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 auto;
+}
+
+.Footer--column--title {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.Footer--lower {
+  padding-top: 2rem;
+  border-color: #cacaca;
+  border-top: 1px solid var(--midGrey);
+}
+
+.Footer--lower * {
+  font-size: 1.4rem;
+}
+
+.JoinBannerSection.section {
+  padding-top: 0;
+}
+
+.JoinBannerSection + .section {
+  padding-top: 0;
+}
+
+.centreSocial {
+  margin-top: 1.5rem;
+}
+
+.centreSocial svg {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.centreSocial svg * {
+  fill: #222f50;
+  fill: var(--secondary);
+}
+
+@media only screen and (max-width: 1400px) {
+  .Footer--column a, .Footer--column p {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .footer-centres {
+    flex: 1;
+  }
+
+  .form-column {
+    flex: auto;
+    margin-top: 3rem;
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  .footer-centres {
+    flex: 0 0 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .footer-centres .Footer--column {
+    flex: 0 0 33%;
+  }
+
+  .Footer--upper--container {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .footer-centres .Footer--column {
+    margin-right: 0;
+  }
+
+  .SubscribeForm.active {
+    display: inline-block;
+  }
+
+  .SubscribeForm .EnquiryForm--Label {
+    width: 100%;
+  }
+
+  .SubscribeForm .checkbox-container {
+    margin-left: 2rem;
+    text-align: left;
+    width: auto;
+  }
+
+  .SubscribeForm .checkbox-container:first-of-type {
+    margin-left: 0;
+  }
+
+  .SubscribeForm .Button {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .SubscribeForm .Button {
+    padding: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .footer-centres .Footer--column {
+    flex: 0 0 100%;
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .SubscribeForm {
+    max-width: 86%;
+    margin: 0 auto;
+  }
+
+  .SubscribeForm .checkbox-container {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .Footer--column--title {
+    font-size: 1.8rem;
+  }
+}

@@ -1,0 +1,321 @@
+
+  :root {
+  --col1: #f16668;
+  --col2: #9fc9eb;
+  --col2-trans: rgba(158, 200, 235, 0.95);
+  --col2-light: #dbebf9;
+  --col3: #dbebf9;
+  --col4: #5dbf88;
+  --col5: #faed87;
+  --col6: #c8e8e5;
+}
+
+.PageHeader {
+  background: #dbebf9;
+  background: var(--col2-light);
+  padding: 6rem 0;
+  min-height: 24rem;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+.PageHeader:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 22rem;
+  height: 120%;
+  background-image: url(/images/uploads/bannerimg-left.png);
+  background-position: top left;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.PageHeader:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -1px;
+  width: 28.7rem;
+  height: 150%;
+  background-image: url(/images/uploads/bannerimg-right.png);
+  background-position: top left;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.PageHeader--BG {
+  background-position: top;
+}
+
+.PageHeader-large {
+  padding: 15rem 0;
+}
+
+.PageHeader-large:before {
+  background-image: url(/images/uploads/homeimg-left.png);
+}
+
+.PageHeader-large:after {
+  background-image: url(/images/uploads/homeimg-right.png);
+  width: 62.2rem;
+  height: 100%;
+}
+
+.PageHeader-large .Image {
+  height: auto;
+  width: 55rem;
+  position: absolute !important;
+  bottom: -42rem;
+  right: 15rem;
+  z-index: 1;
+}
+
+.PageHeader--Title {
+  font-size: 4.8rem;
+  margin-bottom: 0;
+  line-height: 1.1;
+  position: relative;
+  z-index: 1;
+}
+
+.PageHeader-large .PageHeader--Title {
+  margin-bottom: 2rem;
+  font-size: 7rem;
+}
+
+.PageHeader--Inner {
+  max-width: 800px;
+}
+
+.PageHeader--Subtitle {
+  font-size: 1.8rem;
+  max-width: 700px;
+  font-size: 2.4rem;
+  margin-bottom: 3rem;
+}
+
+.fixed-button {
+  position: fixed;
+  right: -6.4rem;
+  top: 27rem;
+  background-color: #f16668;
+  background-color: var(--col1);
+  z-index: 9;
+  color: white;
+  padding: 1rem 2rem;
+  transform: rotate(90deg);
+  border-radius: 0 0 1rem 1rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: all ease-in-out .2s;
+}
+
+.fixed-button svg {
+  transform: rotate(90deg);
+  margin-right: 1.5rem;
+}
+
+.fixed-button:hover {
+  background-color: #9fc9eb;
+  background-color: var(--col2);
+}
+
+
+@media only screen and (max-width: 1450px) {
+  .PageHeader .container {
+    margin-left: 22rem;
+  }
+
+  .PageHeader-large .container {
+    margin-left: auto !important;
+  }
+
+  .PageHeader-large {
+    padding: 10rem 0;
+  }
+
+  .PageHeader-large .Image {
+    right: 5rem;
+    width: 42rem;
+    bottom: -31rem;
+  }
+
+  .PageHeader-large .PageHeader--Title {
+    font-size: 5rem;
+  }
+
+  .PageHeader--Subtitle {
+    font-size: 1.6rem;
+  }
+
+  .PageHeader-large .PageHeader--Inner {
+    max-width: 600px;
+  }
+
+  .PageHeader-large:after {
+    width: 45.3rem;
+  }
+}
+
+@media only screen and (max-width: 1175px) {
+  .PageHeader-large {
+    padding: 8rem 0;
+  }
+
+  .PageHeader-large .Image {
+    width: 40rem;
+    bottom: -27rem;
+  }
+
+  .PageHeader--Title {
+    font-size: 3.8rem;
+  }
+
+  .PageHeader-large .PageHeader--Title {
+    font-size: 4.5rem;
+  }
+
+  .PageHeader--Inner {
+    max-width: 520px !important;
+  }
+
+  .PageHeader {
+    min-height: auto;
+  }
+
+  .PageHeader:after {
+    width: 24.5rem;
+  }
+
+  .PageHeader-large:after {
+    width: 40.5rem;
+  }
+}
+
+@media only screen and (max-width: 1040px) {
+  .PageHeader-large {
+    padding: 7rem 0;
+  }
+
+  .PageHeader-large .Image {
+    width: 37rem;
+    bottom: -26rem;
+  }
+
+  .PageHeader-large .PageHeader--Title {
+    font-size: 4.2rem;
+  }
+
+  .PageHeader-large .PageHeader--Inner {
+    max-width: 500px;
+  }
+
+  .PageHeader-large:after {
+    width: 38.1rem;
+  }
+}
+
+@media only screen and (max-width: 1260px) {
+  .PageHeader-large .Image {
+    display: none;
+  }
+
+  .PageHeader-large:after {
+    background-image: url(/images/uploads/homebannerimg-mobile.png);
+    width: 15.5rem;
+  }
+
+  .PageHeader-large:before {
+    background-image: url(/images/uploads/homebannerimg-mobile-left.png);
+  }
+
+  .PageHeader-large .PageHeader--Inner {
+    max-width: 600px;
+  }
+
+  .PageHeader {
+    margin-top: 5rem;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .PageHeader {
+    margin-top: 5rem;
+  }
+
+  .PageHeader .container {
+    margin-left: auto;
+  }
+
+  .PageHeader:before {
+    background-image: url(/images/uploads/bannerimg-moblie.png);
+    height: 150%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .PageHeader-large .PageHeader--Title {
+    font-size: 3.5rem;
+  }
+
+  .PageHeader--Subtitle {
+    font-size: 1.5rem;
+  }
+
+  .PageHeader--Title {
+    font-size: 3.2rem;
+  }
+
+  .PageHeader:after {
+    width: 19.2rem;
+  }
+
+  .PageHeader-large:after {
+    width: 14.3rem;
+  }
+
+  .fixed-button {
+    font-size: 1.4rem;
+    padding: .5rem 1rem;
+    right: -5.1rem;
+  }
+
+  .fixed-button svg {
+    height: 20px;
+    margin-right: 1rem !important;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .PageHeader--Title {
+    font-size: 2.8rem;
+  }
+}
+
+
+@media only screen and (max-width: 420px) {
+
+  .PageHeader--Title {
+    font-size: 2.4rem;
+    text-align: center;
+  }
+
+  .PageHeader-large {
+    padding: 5rem 0;
+  }
+
+  .PageHeader-large .PageHeader--Title {
+    font-size: 2.8rem;
+  }
+
+  .PageHeader-large:after {
+    width: 13.1rem;
+  }
+}

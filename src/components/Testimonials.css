@@ -1,0 +1,43 @@
+.Testimonials--Slider {
+  position: relative;
+  margin-top: 5rem;
+}
+
+.Testimonials--Slider--Item {
+  background: white;
+  padding: 5rem 7rem;
+}
+
+.Testimonials--Slider--Quote {
+  position: absolute;
+  top: -4rem;
+  bottom: calc(100% - 5rem);
+  width: 5rem;
+  left: 50%;
+  z-index: 1;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  transform: translateX(-50%);
+}
+
+@media only screen and (max-width: 600px) {
+  .Testimonials {
+    padding: 4rem 0 7rem;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .Centre--DirectorStatement--Title {
+    font-size: 1.8rem;
+  }
+
+  .Testimonials--Slider--Item {
+    padding: 5rem 3rem;
+  }
+
+  .Testimonials {
+    padding-bottom: 10rem;
+  }
+}

@@ -1,0 +1,69 @@
+.ExceedBanner {
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ExceedBanner--title {
+  margin-bottom: 0;
+}
+
+.ExceedBanner--image {
+  width: 19rem;
+  height: auto;
+}
+
+@media only screen and (max-width: 1350px) {
+	.ExceedBanner--title {
+		font-size: 3.2rem;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.ExceedBanner--title {
+		font-size: 2.8rem;
+	}
+
+	.ExceedBanner--image {
+		width: 20rem;
+		margin-right: 6rem;
+	}
+}
+
+@media only screen and (max-width: 815px) {
+	.ExceedBanner--image {
+		width: 24vw;
+	}
+
+	.ExceedBanner--title {
+		font-size: 2.2rem;
+	}
+}
+
+@media only screen and (max-width: 650px) {
+	.ExceedBanner {
+		flex-wrap: wrap;
+		text-align: center;
+	}
+
+	.ExceedBanner--image {
+		margin: 0 auto 2rem;
+		width: 18rem;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

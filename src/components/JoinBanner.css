@@ -1,0 +1,60 @@
+.JoinBanner {
+  padding: 5rem 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.JoinBanner--title {
+  margin-bottom: 0;
+  flex-shrink: 0;
+}
+
+.JoinBanner .Wave {
+  margin: auto 3rem;
+  flex-shrink: 1;
+}
+
+.JoinBanner .Button {
+  flex-shrink: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+  .JoinBanner {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .JoinBanner--title {
+    flex: 0 0 100%;
+    margin-bottom: 1rem;
+  }
+
+  .JoinBanner .Button {
+    margin: 4rem auto 0;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .JoinBanner--title {
+    font-size: 3.2rem;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .JoinBanner--title {
+    font-size: 2.8rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .JoinBanner {
+    padding: 3rem 5%;
+  }
+}
+
+
+
+
+

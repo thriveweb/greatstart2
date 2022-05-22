@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="58px" viewBox="0 0 70 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="TestimonialSlider" transform="translate(-865.000000, -175.000000)" fill="#F16668">
+            <g id="testimonial">
+                <path d="M906,175 L906,204 L922.571429,204 C922.571429,213.149741 915.149818,220.571429 906,220.571429 L906,233 C922.017249,233 935,220.017249 935,204 L935,175 L906,175 Z M865,204 L881.571429,204 C881.571429,213.149741 874.149818,220.571429 865,220.571429 L865,233 C881.017249,233 894,220.017249 894,204 L894,175 L865,175 L865,204 Z" id="Page-1"></path>
+            </g>
+        </g>
+    </g>
+</svg>

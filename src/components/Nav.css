@@ -1,0 +1,219 @@
+.Nav {
+  background: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-width: 100%;
+  z-index: 99;
+  font-size: 1rem;
+  box-shadow: 0 0 3rem 0 rgba(0,0,0,0.1);
+}
+
+.Nav--Container {
+  display: flex;
+  align-items: center;
+  height: 10rem;
+}
+
+.Nav--Container--Links {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.Nav--Container--Sep {
+  margin: 0 1em;
+  border: 1px solid currentColor;
+  height: 1.5em;
+}
+
+.Nav--Container--Links > * + * {
+  margin-left: 1em;
+}
+
+.NavLinkGroup {
+  position: relative;
+}
+
+.NavLinkGroup .MenuToggle {
+  display: none;
+}
+
+.SubNav {
+  position: absolute;
+  background: white;
+  border: 3px solid currentColor;
+  top: 100%;
+  left: 0;
+  text-align: left;
+  width: 300px;
+  padding: 1rem;
+  max-height: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: all ease-in-out .2s;
+}
+
+.NavLinkGroup:hover .SubNav {
+  max-height: 70rem;
+  opacity: 1;
+  visibility: visible;
+}
+
+.Nav .Logo {
+  margin-right: auto;
+  width: 20rem;
+}
+
+.Nav--MenuButton {
+  display: none;
+  margin-left: auto;
+}
+
+.NavLinkGroup, .NavLink a {
+  font-size: 1.2rem;
+  color: var(--secondary);
+}
+
+@media (max-width: 1250px) {
+  .NavLinkGroup, .NavLink {
+    font-size: 1.2rem;
+  }
+
+  .Nav .Logo {
+    width: 20rem;
+  }
+}
+
+@media (max-width: 1260px) {
+  .Nav--Container {
+    display: flex;
+    height: auto;
+  }
+
+  .Nav .Logo {
+    width: 12rem;
+  }
+
+  .Nav--Container--Links {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    top: 5rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: white;
+    overflow-y: scroll;
+  }
+
+  .SubNav .NavLink {
+    padding: 0;
+  }
+
+  .SubNav .NavLink a {
+    padding: 1rem 2rem;
+    display: block;
+  }
+
+  .NavLinkGroup, .NavLink {
+    width: 100%;
+    display: block;
+  }
+
+  .NavLink {
+    padding: 1rem 2rem;
+  }
+
+  .NavLink.primary {
+    width: auto;
+    margin-top: 3rem;
+  }
+
+  .NavLinkGroup:hover .SubNav {
+    max-height: 0;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .NavLinkGroup .MenuToggle {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 3rem;
+    width: 100%;
+    padding-right: 1rem;
+    z-index: 9;
+    cursor: pointer;
+  }
+
+  .NavLinkGroup .MenuToggle svg {
+    height: 1rem;
+    width: 1rem;
+  }
+
+  .NavLinkGroup .MenuToggle:hover svg {
+    color: #9fc9eb;
+    color: var(--col2);
+  }
+
+  .SubNav {
+    position: relative;
+    border: none;
+    top: 0;
+    padding: 0;
+    max-height: 0;
+    opacity: 0;
+    visibility: hidden;
+    width: 100%;
+  }
+
+  .menu-active .SubNav {
+    max-height: 70rem;
+    opacity: 1;
+    visibility: visible;
+    border-top: .2rem solid black;
+    border-bottom: .2rem solid black;
+  }
+
+  .NavLinkGroup.menu-active:hover .SubNav {
+    max-height: 70rem;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .Nav--Container--Links > * + * {
+    margin-left: 0;
+  }
+
+  .Nav--Container--Sep {
+    display: none;
+  }
+
+  .Nav--Container--Links.active {
+    display: flex;
+  }
+
+  .Nav--MenuButton {
+    display: block;
+    z-index: 1;
+  }
+
+  .Nav--Container--Links .Button {
+    font-size: 1.3rem;
+  }
+
+  .Button {
+    margin-top: 2rem;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .NavLinkGroup, .NavLink {
+    font-size: 1.4rem;
+  }
+}

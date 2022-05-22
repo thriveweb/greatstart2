@@ -1,0 +1,156 @@
+.member-popup {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(84,87,95,0.9);
+	z-index: -1;
+	opacity: 0;
+	transition: all ease-in-out .2s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.member-popup .container {
+	background-color: white;
+	max-width: 80rem;
+	max-height: 80%;
+	overflow: scroll;
+	box-shadow: 8px 10px 0 rgba(158, 200, 235, 0.95);
+	box-shadow: 8px 10px 0 var(--col2-trans);
+	transform: scale(0);
+	transition: all ease-in-out .2s;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	.member-popup .container {
+		margin: 0;
+	}
+}
+
+.member-popup .popup-close {
+	border-color: #222f50;
+	border: .2rem solid var(--secondary);
+	position: absolute;
+	top: 5rem;
+	right: 5rem;
+	height: 4rem;
+	width: 4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.member-popup svg {
+	height: 2rem;
+	width: 2rem;
+}
+
+.member-popup svg * {
+	fill: white;
+}
+
+.member-popup .popup-header {
+	display: flex;
+}
+
+.popup-header .member-info, .popup-header .BackgroundImage {
+	flex: 1;
+	position: relative;
+}
+
+.popup-header .member-info {
+	background-color: #222f50;
+	background-color: var(--secondary);
+	top: 0;
+	transform: none;
+	opacity: 1;
+	padding: 8rem 4rem;
+	text-align: left;
+}
+
+.popup-header .member-info h4:after {
+	right: auto;
+	margin: 1rem 0 0;
+}
+
+.popup-header .member-info .title {
+	font-weight: 600;
+}
+
+.member-popup .member-info p {
+	color: white;
+}
+
+.member-popup .Content {
+	padding: 6rem 4rem;
+	text-align: left;
+}
+
+.member-popup.active {
+	opacity: 1;
+	z-index: 999;
+}
+
+.member-popup.active .container {
+	transform: scale(1);
+}
+
+@media only screen and (max-width: 900px) {
+	.member-popup .popup-close {
+		right: 2rem;
+		top: 2rem;
+	}
+}
+
+@media only screen and (max-width: 770px) {
+	.popup-header .member-info {
+		padding: 4rem 3rem;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.popup-header .BackgroundImage {
+		height: 70vw;
+		flex: 0 0 100%;	
+	}
+
+	.member-popup .popup-header {
+		flex-wrap: wrap;
+	}
+
+	.member-popup .member-info {
+		max-width: 100%;
+		flex: 0 0 100%;
+		background-color: white;
+		padding-bottom: 0;
+	}
+
+	.member-popup .member-info p {
+		color: var(--secondary);
+	}
+
+	.member-popup .Content {
+		padding: 2rem 3rem;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.member-popup .popup-close {
+		top: 1rem;
+		right: 1rem;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+

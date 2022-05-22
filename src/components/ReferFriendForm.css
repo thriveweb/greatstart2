@@ -1,0 +1,11 @@
+.ReferFriend {
+	display: none;
+}
+
+.ReferFriend.active {
+	display: flex;
+}
+
+.ReferFriend .Button {
+  align-self: flex-start;
+}

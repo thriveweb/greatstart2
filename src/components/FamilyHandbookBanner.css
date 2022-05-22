@@ -1,0 +1,48 @@
+.downloadBanner {
+	margin-top: 6rem;
+	padding: 5rem 0 !important;
+}
+
+.DownloadBanner--Container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.DownloadBanner--Image {
+  flex: 1;
+}
+
+.DownloadBanner--Content {
+	flex: 0 0 75%;
+	margin-left: 5%;
+}
+
+.DownloadBanner--Button {
+  margin-top: 1rem;
+}
+
+@media only screen and (max-width: 900px) {
+	.downloadBanner {
+		text-align: center;
+	}
+
+	.DownloadBanner--Image {
+	  flex: 0 0 100%;
+	  margin: 0 0 2rem;
+	}
+
+	.DownloadBanner--Content {
+		flex: 0 0 100%;
+		margin: 0 auto !important;
+	}
+	
+}
+
+@media only screen and (max-width: 500px) {
+	.downloadBanner h5 {
+		font-size: 2rem;
+	}
+}

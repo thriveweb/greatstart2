@@ -1,0 +1,63 @@
+.BookTour {
+  display: none;
+}
+
+.BookTour.active {
+  display: flex;
+}
+
+.BookTour .label-text .EnquiryForm--Input {
+  margin-left: 1rem;
+}
+
+.BookTour .privacy-check {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin-left: 4rem;
+}
+
+.BookTour .label-text p, .BookTour .privacy-check p {
+  margin: 0;
+  font-weight: 400;
+}
+
+.BookTour .privacy-check .EnquiryForm--Input {
+  flex: 0 0 3%;
+}
+
+.checkbox-container, .privacy-check {
+  position: relative;
+  padding-left: 2rem;
+  margin-left: 2rem;
+}
+
+@media only screen and (max-width: 1150px) {
+  .BookTour .label-text .EnquiryForm--Input {
+    flex: 0 0 100%;
+    margin-left: 0;
+  }
+
+  .BookTour .EnquiryForm--Label {
+    align-items: flex-end;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .BookTour .checkbox-container {
+    width: auto;
+    margin-left: 2rem;
+  }
+
+  .BookTour .privacy-check {
+    flex: 0 0 100%;
+    margin: 2rem 0 0;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .BookTour .checkbox-container {
+    width: 100%;
+    margin-left: 0;
+  }
+}

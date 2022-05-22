@@ -1,0 +1,70 @@
+.Content {
+  position: relative;
+  z-index: 1;
+}
+
+.Content:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.Content--Image,
+.Content img {
+  max-width: 100%;
+  height: auto;
+  margin: 3rem auto;
+  display: block;
+}
+
+.Content--Iframe {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+}
+
+.Content--Iframe iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.Content h6 strong {
+  line-height: 1.4;
+}
+
+.Content p {
+  margin-bottom: 2em;
+}
+
+.Content p:last-child {
+  margin-bottom: 0;
+}
+
+@media (min-width: 1000px) {
+  .Content--Image,
+  .Content .gatsby-resp-image-wrapper {
+    margin: 1rem 3rem 2rem 0 !important;
+  }
+
+  .Content ul {
+    columns: 2;
+    column-gap: 4rem;
+  }
+
+  .Content ul ul,
+  .Content ol ul {
+    columns: 1;
+    margin-bottom: 2rem;
+  }
+
+  .Content ul li {
+    display: inline-block;
+    width: 100%;
+  }
+}

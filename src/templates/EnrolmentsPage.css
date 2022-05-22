@@ -1,0 +1,144 @@
+.EnrolmentsPage.background-dots:before {
+	top: 15%;
+}
+
+.EnrolmentsPage--Section1 {
+}
+
+.EnrolmentsPage--Section1 .container {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.EnrolmentsPage--Section1-Image, .EnrolmentsPage--Section1-Content {
+	flex: 1;
+}
+
+.EnrolmentsPage--Section1-Image {
+	margin-right: 4rem;
+}
+
+.EnrolmentsPage--Section1 .container > * {
+  width: calc(50% - 2rem);
+}
+
+.EnrolmentsPage--Section2--Step + .EnrolmentsPage--Section2--Step {
+  margin-top: 4rem;
+}
+
+.EnrolmentsPage--Section2--Step {
+	display: flex;
+	align-items: flex-start;
+}
+
+.EnrolmentsPage--Section2--Step .Button {
+	flex: 0 0 15%;
+	margin-right: 4rem;
+	text-align: center;
+	display: block;
+	min-height: 5.5rem;
+}
+
+.EnrolmentsPage--EnrolBanner.background-clouds:before {
+	bottom: 10rem;
+}
+
+.EnrolmentsPage .download-file {
+	margin: 4rem 0;
+	display: flex;
+	align-items: center;
+}
+
+.EnrolmentsPage .download-file a {
+	color: #222f50;
+	color: var(--secondary);
+	margin-left: 1rem;
+	font-weight: 600;
+}
+
+.EnrolmentsPage .download-file a:hover {
+	text-decoration: underline;
+}
+
+.login-form {
+	margin-top: 4rem;
+}
+
+.login-form iframe {
+	border: none;
+}
+
+.EnrolmentsPage .PopoutBanner {
+	margin-top: 8rem;
+	padding-bottom: 0;
+}
+
+
+@media only screen and (max-width: 1300px) {
+	.EnrolmentsPage--Section1 h3 {
+		font-size: 3rem;
+	}
+}
+
+@media only screen and (max-width: 1250px) {
+	.EnrolmentsPage--Section2--Step {
+		flex-direction: column;
+	}
+
+	.EnrolmentsPage--Section2--Step .Button {
+		margin-bottom: 2rem;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	.EnrolmentsPage--Section1 h3 {
+		font-size: 2.6rem;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.EnrolmentsPage--Section1 .container {
+		flex-wrap: wrap;
+	}
+
+	.EnrolmentsPage--Section1 .container > * {
+	  	width: 100%;
+	  	flex: 0 0 100%;
+	}
+
+	.EnrolmentsPage--Section1-Image {
+		height: 34vw;
+		margin-bottom: 2rem;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.EnrolmentsPage--Section1 h3 {
+		font-size: 2rem;
+	}
+
+	.EnrolmentsPage--Section2--Step h4 {
+		font-size: 2rem;
+	}
+
+	.EnrolmentsPage--Section2--Step .Button {
+		min-height: 4.2rem;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	.EnrolmentsPage .download-banner {
+		margin-top: 1rem;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.EnrolmentsPage .BreakoutBox h3 {
+		font-size: 2.2rem;
+	}
+
+	.EnrolmentsPage .download-file {
+		font-size: 1.4rem;
+	}
+}

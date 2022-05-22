@@ -1,0 +1,281 @@
+.EnquiryForm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 500px;
+  margin: 2.5rem 0;
+}
+
+.EnquiryForm > * + * {
+  margin-top: 2rem;
+}
+
+.EnquiryForm--Label {
+  width: 48%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  margin-bottom: 5rem;
+}
+
+.EnquiryForm--Input {
+  font-family: inherit;
+  flex-grow: 1;
+  box-sizing: border-box;
+  display: block;
+  margin: 0;
+  border: none;
+  -webkit-appearance: none;
+  outline: none;
+  border-bottom: .2rem solid #222f50;
+  padding: 1rem 0;
+  line-height: 1.25em;
+  transition: border-color 0.2s;
+  resize: none;
+  color: #222f50;
+  color: var(--secondary);
+  font-weight: 400;
+}
+
+.EnquiryForm--Select {
+  background: none;
+  appearance: none;
+  border-radius: 0;
+}
+
+.EnquiryForm--Label.full-width {
+  width: 100%;
+}
+
+.EnquiryForm--Label.has-arrow:after {
+  content: '';
+  position: absolute;
+  right: 1.5rem;
+  top: 50%;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+  height: 10px;
+  width: 10px;
+  transform: translateY(-75%) rotate(45deg);
+  pointer-events: none;
+}
+
+.EnquiryForm--Input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px white inset !important;
+}
+
+.EnquiryForm--Input:focus {
+  outline: none;
+  border-color: black;
+}
+
+.EnquiryForm--Input[disabled],
+.EnquiryForm--SubmitButton[disabled] {
+  opacity: 0.4;
+  pointer-events: none;
+  cursor: progress;
+}
+
+.EnquiryForm--Input::placeholder {
+  text-transform: none;
+  color: #222f50;
+  color: var(--secondary);
+}
+
+.EnquiryForm--Alert {
+  width: 100%;
+  text-align: center;
+  padding: 2rem;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  color: #f16668;
+  color: var(--col1);
+}
+
+.file-download {
+  flex: 0 0 60%;
+}
+
+.file-download .EnquiryForm--Label {
+  background-color: white;
+  border-bottom: 0.2rem solid #222f50;
+  padding: 1rem 0;
+  font-size: 1.6rem;
+  font-weight:  400;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  position: relative;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.file-download .EnquiryForm--Label span {
+  margin: 0 auto 0.7rem;
+  color: #222f50;
+  color: var(--secondary);
+}
+
+.file-download-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.file-download-item {
+  flex: 0 0 47%;
+}
+
+.file-download .EnquiryForm--Input {
+  display: none;
+}
+
+.file-download .EnquiryForm--Select {
+  border-radius: 0;
+  background: none;
+  appearance: none;
+}
+
+.form--footer {
+  flex: 0 0 50%;
+  text-align: right;
+  align-self: center;
+}
+
+.ApplicationForm, .BookTour, .ReferFriend {
+  padding: 4rem;
+  border: .4rem solid #222f50;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+  position: relative;
+  z-index: 2;
+  background-color: white;
+}
+
+.checkbox {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: .2rem solid #222f50;
+}
+
+.checkbox-container {
+  user-select: none;
+}
+
+.checkbox-container .EnquiryForm--Input, .privacy-check .EnquiryForm--Input {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  width: 2rem;
+  height: 2rem;
+  opacity: 0;
+  margin: 0 !important;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.checkbox-container .EnquiryForm--Input:checked + .checkbox, .privacy-check .EnquiryForm--Input:checked + .checkbox {
+  background-color: #222f50;
+  background-color: var(--secondary);
+}
+
+
+@media only screen and (max-width: 1350px) {
+  .checkbox-container {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .EnquiryForm--Label {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .file-download-items {
+    display: block;
+  }
+
+  .file-download-item {
+    flex: 0 0 100%;
+    margin-bottom: 5rem;
+  }
+
+  .file-download-item:last-of-type {
+    margin-bottom: 0 !important;
+  }
+}
+
+
+@media only screen and (max-width: 750px) {
+  .file-download {
+    flex: 0 0 100%;
+    margin-bottom: 4rem;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  form {
+    padding: 3rem 2rem !important;
+  }
+
+  .EnquiryForm--Input, .file-download .EnquiryForm--Label {
+    padding: 1rem 0 .5rem;
+  }
+
+  .EnquiryForm--Label {
+    margin-bottom: 4rem;
+  }
+
+  .EnquiryForm--Input, .file-download .EnquiryForm--Label {
+    font-size: 1.4rem;
+  }
+
+  .file-download .EnquiryForm--Label svg {
+    height: 1.5rem;
+    width: 2rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .word-wrap ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    white-space: pre-line;  
+    position: relative;
+    top: -1.2rem; 
+  }
+
+  .word-wrap .EnquiryForm--Input {
+    padding: 1rem 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

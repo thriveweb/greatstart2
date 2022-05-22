@@ -1,0 +1,23 @@
+.FamilyHandbookSection {
+  position: relative;
+}
+
+.FamilyHandbookSection--form {
+  background: white;
+  padding: 7rem 5rem;
+  max-width: 50rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.FamilyHandbookSection--Button {
+  margin-left: auto;
+}
+
+.FamilyHandbookSection--image {
+  position: absolute;
+  left: 50%;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}

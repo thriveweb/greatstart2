@@ -1,0 +1,38 @@
+.Button {
+  background: white;
+  color: #222f50;
+  color: var(--secondary);
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  font-size: 1.05em;
+  display: inline-block;
+  padding: 0.7em 2.5em;
+  border: 3px solid currentColor;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  border-radius: 0;
+}
+.Button:hover,
+.Button:focus {
+  transform: translateY(-1px);
+}
+.Button[disabled] {
+  opacity: 0.4;
+  pointer-events: none;
+  cursor: progress;
+}
+.Button.Button-inverted {
+  background: white;
+  border-color: white;
+  color: #f16668;
+  color: var(--col1);
+}
+
+.Button-blank {
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

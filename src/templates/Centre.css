@@ -1,0 +1,279 @@
+.Centre {
+}
+
+.Centre--Intro {
+  padding-bottom: 0 !important;
+}
+
+.Centre--Intro .container {
+  display: flex;
+  align-items: center;
+}
+
+.Centre--Intro .container > *:first-child {
+  margin-right: 4rem;
+}
+
+.Centre--Intro--Logo {
+  width: 18rem;
+  flex: 0 0 auto;
+}
+
+.Centre--Intro--Title {
+  margin-bottom: 0;
+  font-size: 3.2rem;
+  position: relative;
+  z-index: 1;
+  flex: 1;
+}
+
+.Centre--MainSection {
+  position: relative;
+}
+
+.Centre--Details {
+  float: right;
+  margin-bottom: 3rem;
+  margin-left: 3rem;
+}
+
+.Centre--ClassroomsSection--Items {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.Centre--ClassroomsSection--Item {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 17%;
+}
+
+.Centre--ClassroomsSection--Item--Icon {
+  height: 5rem;
+  width: auto;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.Centre--ClassroomsSection--Item--Icon img {
+  max-height: 100%;
+}
+
+.Centre--ClassroomsSection--Subtitle .Button {
+  margin: 3rem;
+}
+
+.Centre--ClassroomsSection--Item--Title {
+  font-weight: 600;
+  color: #f16668;
+  color: var(--col1);
+}
+
+.Centre--ClassroomsSection--Subtitle {
+  font-weight: 600;
+}
+
+.Centre .BreakoutBox h5 {
+  font-size: 4rem;
+}
+
+.Centre--DirectorStatement--Title {
+  margin-bottom: 5rem;
+}
+
+.Centre--DirectorStatement--Image {
+  margin: 0 3rem 1rem 0;
+  float: left;
+  width: 45%;
+}
+
+.Centre--Gallery--Title {
+  margin-bottom: 5rem;
+}
+
+.Centre--InfoBoxes .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.Centre--InfoBox {
+  width: calc(50% - 2rem);
+  margin-bottom: 4rem;
+  display: block;
+}
+
+.Centre--InfoBox p {
+  max-width: 100% !important;
+}
+
+.Centre .column-section {
+  padding: 7rem 0 0;
+}
+
+.Centre .column-section .column-content {
+  display: flex;
+  margin-bottom: 4rem;
+}
+
+.Centre .column-section .column-content .gatsby-image-outer-wrapper, .Centre .column-section .column-content .Content {
+  flex: 1;
+}
+
+.Centre .column-section .column-content .gatsby-image-outer-wrapper {
+  margin-right: 4rem;
+}
+
+.Centre .column-section .column-content:nth-of-type(even) {
+  flex-direction: row-reverse;
+}
+
+.Centre .column-section .column-content:nth-of-type(even) .gatsby-image-outer-wrapper {
+  margin-right: 0;
+}
+
+.Centre .column-section .column-content:nth-of-type(even) .Content {
+  margin-right: 4rem;
+}
+
+.location {
+  width: 100%;
+}
+
+.Centre .map-container {
+  margin: 0 0 1rem;
+}
+
+@media only screen and (max-width: 1450px) {
+  .Centre .column-section .column-content .Content {
+    flex: 0 0 100%;
+  }
+
+  .Centre .column-section .column-content .gatsby-image-outer-wrapper {
+    flex: 0 0 50%;
+  }
+
+  .Centre .column-section .column-content {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .Centre .column-section .column-content .gatsby-image-outer-wrapper {
+    margin-right: 0;
+    margin-bottom: 4rem;
+  }
+
+  .Centre .column-section .column-content:nth-of-type(even) .Content {
+    margin-right: 0;
+  }
+
+  .Centre .column-section .column-content:nth-of-type(even) {
+    flex-direction: row;
+  }
+}
+
+
+@media only screen and (max-width: 1185px) {
+  .Centre--ClassroomsSection--Item {
+    flex: 0 0 20%;
+  }
+
+  .Centre--Intro--Title {
+    font-size: 2.6rem;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .Centre--ClassroomsSection--Item {
+    flex: 0 0 40%;
+  }
+
+  .Centre--ClassroomsSection--Items {
+    flex-wrap: wrap;
+  }
+
+  .Centre--InfoBox {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .Centre--Intro--Logo {
+    width: 18%;
+  }
+
+  .Centre--Intro--Title {
+    font-size: 2rem;
+  }
+
+  .Centre .BreakoutBox {
+    float: none;
+    margin: 0 0 4rem;
+  }
+}
+
+
+@media only screen and (max-width: 800px) {
+  .Centre .column-section .column-content .gatsby-image-outer-wrapper {
+    flex: 0 0 100%;
+  }
+
+  .Centre--InfoBoxes .BreakoutBox--Content {
+    flex: 0 0 100%;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .Centre--Gallery--Title {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+  }
+
+  .Centre--DirectorStatement {
+    padding-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .Centre--Intro .container {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .Centre--Intro--Logo {
+    width: 16rem;
+    margin: 0 auto 2rem !important;
+  }
+
+  .Centre--Intro--Title {
+    flex: 0 0 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Centre--ClassroomsSection--Subtitle {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+  }
+
+  .Centre--ClassroomsSection--Subtitle a {
+    align-self: center;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .Centre--InfoBoxes .BreakoutBox h3 {
+    font-size: 2.6rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .Centre--ClassroomsSection--Item {
+    flex: 0 0 80%;
+    margin: 2rem auto 2rem;
+  }
+}

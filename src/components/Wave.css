@@ -1,0 +1,10 @@
+.Wave {
+  height: 1rem;
+  width: 100%;
+  background-repeat: repeat-x;
+  background-position: center;
+}
+
+.Wave.short {
+  width: 20rem;
+}

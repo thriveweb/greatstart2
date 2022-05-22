@@ -1,0 +1,11 @@
+.thankyou-content {
+  padding: 6rem 0;
+}
+
+.thankyou-content .Content p {
+  margin-bottom: 1rem;
+}
+
+.thankyou-content .Content p strong {
+  font-size: 2rem;
+}

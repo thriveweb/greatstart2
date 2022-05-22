@@ -1,0 +1,202 @@
+.QKPortalPage .header-columns {
+	position: relative;
+	padding-bottom: 15rem;
+}
+
+.QKPortalPage .header-columns .Image {
+	height: 67rem;
+	width: 81rem;
+	position: absolute !important;
+}
+
+.QKPortalPage .header-columns .BreakoutBox {
+	width: 50%;
+	margin: 0 0 0 auto;
+	position: relative;
+	z-index: 1;
+	padding: 6rem;
+}
+
+.QKPortalPage .features h3 {
+	text-align: center;
+	margin-bottom: 8rem;
+}
+
+.QKPortalPage .features-list {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.QKPortalPage .features-item {
+	flex: 0 0 48%;
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 4rem;
+}
+
+.QKPortalPage .features-item .features-icon {
+	width: 8rem;
+	height: 8rem;
+	margin-right: 2rem;
+	background-color: #f16668;
+	background-color: var(--col1);
+	border-radius: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 0 0 8rem;
+}
+
+.QKPortalPage .features-item .features-icon .Image {
+	max-height: 5rem;
+	max-width: 5rem;
+}
+
+.QKPortalPage .BreakoutBox p {
+	font-size: 1.8rem;
+}
+
+@media only screen and (max-width: 1650px) {
+	.QKPortalPage .header-columns .Image img {
+		bottom: 0;
+		margin: auto 0;
+		height: auto !important;
+		width: 50vw !important;
+	}
+
+	.QKPortalPage .header-columns .BreakoutBox {
+		width: 50%;
+	}
+}
+
+@media only screen and (max-width: 1150px) {
+	.QKPortalPage .features-item .features-icon {
+		max-height: 6rem;
+		max-width: 6rem;
+	}
+
+	.QKPortalPage .features-item .features-icon .Image {
+		max-height: 3rem;
+		max-width: 3rem;
+	}
+
+	.QKPortalPage .features-item h4 {
+		font-size: 2rem;
+		margin: 0;
+	}
+
+	.QKPortalPage .header-columns .BreakoutBox {
+		width: 100%;
+	}
+
+	.QKPortalPage .header-columns .Image {
+		top: 52rem;
+	}
+
+	.QKPortalPage .header-columns .Image img {
+		width: 80rem !important;
+	}
+
+	.QKPortalPage .header-columns {
+		padding-bottom: 80rem;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	.QKPortalPage .features-item {
+		flex: 0 0 100%;
+	}
+
+	.QKPortalPage .header-columns .Image {
+		top: 58rem;
+	}
+}
+
+@media only screen and (max-width: 850px) {
+	.QKPortalPage .header-columns .Image img {
+		width: 80vw !important;
+	}
+
+	.QKPortalPage .header-columns {
+		padding-bottom: 90vw;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.QKPortalPage .features-item .features-icon {
+		max-height: 4rem;
+		max-width: 4rem;
+		margin-right: 1rem;
+	}
+
+	.QKPortalPage .features-item .features-icon .Image {
+		max-height: 2rem;
+		max-width: 2rem;
+	}
+
+	.QKPortalPage .header-columns .Image {
+		top: 60rem;
+	}
+
+	.QKPortalPage .features h3 {
+		margin-bottom: 4rem;
+	}
+}
+
+@media only screen and (max-width: 470px) {
+	.QKPortalPage .header-columns .Image {
+		display: none;
+	}
+
+	.QKPortalPage .header-columns {
+		padding-bottom: 4rem;
+	}
+
+	.QKPortalPage .header-columns .BreakoutBox {
+		padding: 4rem;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.QKPortalPage .features-item {
+		flex-direction: column;
+		text-align: center !important;
+		align-content: center;
+	}
+
+	.QKPortalPage .features-item .features-icon {
+		margin: 0 auto 1rem;
+	}
+
+	.QKPortalPage .features-item .Content {
+		margin: 0 auto;
+	}
+
+	.QKPortalPage .features-item h5 {
+		font-size: 1.8rem;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.QKPortalPage .BreakoutBox h3 {
+		font-size: 2.4rem;
+	}	
+
+	.QKPortalPage .BreakoutBox p {
+		font-size: 1.4rem;
+	}
+
+	.QKPortalPage .header-columns .BreakoutBox {
+		padding: 2rem;
+	}
+
+	.QKPortalPage .header-columns {
+		min-height: 54rem !important;
+	}
+}
+
+
+
+
+

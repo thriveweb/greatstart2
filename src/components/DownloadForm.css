@@ -1,0 +1,248 @@
+.download-banner {
+  display: flex;
+  margin-top: 7.5rem;
+  position: relative;
+  align-items: flex-start;
+  padding-left: 33%;
+  flex-wrap: wrap;
+}
+
+.download-banner .form-description {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  font-weight: 500;
+}
+
+.download-banner-form {
+  display: none !important;
+}
+
+.download-banner-form.active {
+  display: flex !important;
+}
+
+.download-banner .BackgroundImage {
+  width: 33%;
+}
+
+/*Home Banner*/
+
+.home-download {
+  padding-left: 0;
+}
+
+.home-download .DownloadForm {
+  flex: 0 0 50%;
+}
+
+.home-download .BackgroundImage {
+  width: 50%;
+  right: 0;
+  left: auto;
+}
+
+.home-download {
+  background-color: #9fc9eb;
+  background-color: var(--col2);
+  padding: 6rem 0;
+}
+
+.home-download .DownloadForm .EnquiryForm--Label {
+  flex: 0 0 100%;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.home-download .container {
+  background-color: white;
+  padding: 4rem;
+  max-width: 34%;
+  margin: 0 auto 0 8%;
+}
+
+.home-download .DownloadForm {
+  background-color: white;
+  padding: 0;
+}
+
+.home-download .DownloadForm h3 {
+  font-size: 4.6rem;
+}
+
+.home-download .DownloadForm .form-description {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+.home-download.download-banner .Image {
+  max-height: 77rem;
+}
+
+.home-download .DownloadForm .EnquiryForm--Label p {
+  flex: 0 0 100%;
+  margin-bottom: 2rem;
+}
+
+.home-download .DownloadForm .checkbox-container:first-of-type {
+  margin-left: 0;
+}
+
+.home-download .DownloadForm .Button {
+  display: inline-block;
+}
+
+/*Form*/
+
+.DownloadForm {
+  background-color: #c8e8e5;
+  background-color: var(--col6);
+  padding: 6rem;
+  flex: 0 0 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-self: stretch;
+}
+
+.DownloadForm h3 {
+  font-size: 3.2rem;
+  flex: 0 0 100%;
+}
+
+.DownloadForm p {
+  margin: 0;
+}
+
+.DownloadForm .EnquiryForm--Input {
+  background-color: transparent;
+}
+
+.DownloadForm .EnquiryForm--Label {
+  align-items: flex-end;
+}
+
+.DownloadForm .EnquiryForm--Label.label-text p {
+  flex: 0 0 100%;
+  margin-bottom: .5rem;
+}
+
+.DownloadForm .EnquiryForm--Label.label-text .checkbox-container:first-of-type {
+  margin-left: 0;
+}
+
+.DownloadForm .EnquiryForm--Label.label-text {
+  width: 100%;
+}
+
+@media only screen and (max-width: 1575px) {
+  .home-download .container {
+    max-width: 40%;
+    margin: 0 auto 0 5%;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .DownloadForm .EnquiryForm--Label.label-text {
+    flex: 0 0 100%;
+  }
+
+  .DownloadForm .EnquiryForm--Label.label-text p {
+    flex: 0 0 100%;
+    margin-bottom: .5rem;
+  }
+
+  .DownloadForm .EnquiryForm--Label.label-text .checkbox-container:first-of-type {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 1350px) {
+  .home-download .DownloadForm h3 {
+    font-size: 3.4rem;
+  }
+
+  .download-banner .DownloadForm .checkbox-container {
+    width: auto;
+    margin-left: 2rem;
+  }
+
+  .home-download .DownloadForm .checkbox-container {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .download-banner {
+    padding-left: 0;
+  }
+
+  .download-banner .BackgroundImage {
+    display: none;
+  }
+
+  .home-download .BackgroundImage {
+    display: block;
+  }
+
+  .DownloadForm h3 {
+    font-size: 2.4rem;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .home-download {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .home-download .DownloadForm {
+    flex: 0 0 100%;
+  }
+
+  .home-download .container {
+  	max-width: 90%;
+  	margin: 0 auto;
+  }
+
+  .home-download .BackgroundImage {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .home-download .DownloadForm h3 {
+    font-size: 2.6rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .download-banner .DownloadForm .checkbox-container {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .download-banner .form-description {
+    font-size: 2.4rem;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .download-banner .DownloadForm h3 {
+    font-size: 1.8rem;
+  }
+
+  .home-download .container {
+  	padding: 1rem;
+  }
+
+  .download-banner .form-description {
+    font-size: 2rem;
+  }
+
+  .home-download .DownloadForm .form-description {
+    font-size: 1.4rem;
+  }
+}

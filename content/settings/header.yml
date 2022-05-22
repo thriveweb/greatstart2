@@ -1,0 +1,78 @@
+menu:
+  - subMenu:
+      - title: Welcome
+        url: /about/welcome/
+      - title: Our Vision & Philosophy
+        url: /about/our-vision-philosophy/
+      - title: Our Team
+        url: /about/team/
+      - title: Our Learning Environments
+        url: /about/our-learning-environments/
+    title: About
+    url: ''
+  - subMenu:
+      - title: Family Participation & Communication
+        url: /learning/family-participation-communication/
+      - title: Learning at Great Start Early Learning Centres
+        url: /learning/learning-great-start-early-learning-centres/
+      - title: Educational Programs and Curriculum
+        url: /learning/educational-programs-and-curriculum/
+      - title: QK Journeys Curriculum Portal
+        url: /learning/qk-curriculum-portal/
+      - title: Our Teaching Frameworks
+        url: /learning/our-teaching-frameworks/
+      - title: Reggio Emilia Approach
+        url: /learning/reggio-emilia/
+      - title: National Quality Framework
+        url: /learning/national-quality-framework/
+      - title: Early Years Learning Framework (EYLF)
+        url: /learning/great-start-early-learning/
+    title: Learning
+  - subMenu:
+      - title: East Malvern Early Learning Centre
+        url: /centres/east-malvern-early-learning-centre/
+      - title: Mildura Central Early Learning Centre
+        url: /centres/mildura-central-early-learning-centre/
+      - title: Mildura Early Learning Centre
+        url: /centres/mildura-early-learning-centre/
+    title: Centres
+  - subMenu:
+      - title: Book a Tour of Our Centres
+        url: /enrolments/book/
+      - title: Enrolling at a Great Start Early Learning Centre
+        url: /enrolments/enrolling-great-start-early-learing-centre/
+      - title: Getting Started
+        url: /enrolments/getting-started/
+      - title: Fees and Government Subsidies
+        url: /enrolments/fees-and-government-subsidies/
+    title: Enrolments
+  - subMenu:
+      - title: Healthy Menu
+        url: /parents/healthy-menu/
+      - title: Helpful Links
+        url: /parents/helpful-links/
+      - title: Safety and Security
+        url: /parents/safety-security/
+      - title: Settling Tips
+        url: /parents/settling-tips/
+      - title: Centre Forms and Handbooks
+        url: /parents/centre-forms-and-handbooks/
+      - title: New Family Checklist
+        url: /parents/family-checklist/
+      - title: Health & Medication Information
+        url: /parents/health-information/
+      - title: Refer a Friend
+        url: /parents/refer-friend/
+      - title: FAQs
+        url: /parents/faqs/
+      - title: Our Policies
+        url: /parents/our-policies/
+    title: Parents
+  - subMenu:
+      - title: Why Join Our Team?
+        url: /careers/why-join/
+      - title: Employment Opportunities
+        url: /careers/employment-opportunities/
+    title: Careers
+  - title: Contact
+    url: /contact/

@@ -1,0 +1,31 @@
+# Redirect domain aliases to primary domain
+
+https://mychildelc.com.au/* https://greatstartelc.com.au/:splat 301!
+https://www.mychildelc.com.au/* https://greatstartelc.com.au/:splat 301!
+https://great-start-elc.thdi.net/* https://greatstartelc.com.au/:splat 301!
+https://www.greatstartelc.com.au/* https://greatstartelc.com.au/:splat 301!
+http://mychildelc.com.au/main/page_our_centres_our_centres.html/* https://greatstartelc.com.au/:splat 301!
+http://mychildelc.com.au/main/page_home.html/* https://greatstartelc.com.au/:splat 301!
+http://mychildelc.com.au/main/page_our_centres_east_malvern_early_learning_centre_our_centre.html/* https://greatstartelc.com.au/centres/east-malvern-early-learning-centre/:splat 301!
+http://mychildelc.com.au/main/page_our_centres_mildura_early_learning_centre_our_centre.html/*	https://greatstartelc.com.au/centres/mildura-early-learning-centre/:splat 301!
+http://mychildelc.com.au/main/page_about_us.html/* https://greatstartelc.com.au/about/welcome/:splat 301!
+http://mychildelc.com.au/main/page_faq.html/* https://greatstartelc.com.au/parents/faqs/:splat 301!
+http://mychildelc.com.au/main/page_news.html/* https://greatstartelc.com.au/parents/centre-forms-and-handbooks/:splat 301!
+http://mychildelc.com.au/main/page_links.html/* https://greatstartelc.com.au/parents/helpful-links/:splat 301!
+http://mychildelc.com.au/main/page_enrolment_enquiries.html/* https://greatstartelc.com.au/enrolments/enrolling-great-start-early-learing-centre/:splat 301!
+http://mychildelc.com.au/main/page_photo_gallery.html/* https://greatstartelc.com.au/:splat 301!
+http://mychildelc.com.au/main/page_contact_us.html/* https://greatstartelc.com.au/contact/:splat 301!
+http://mychildelc.com.au/main/page_our_centres_mildura_central_child_care_centre_our_centre.html/* https://greatstartelc.com.au/centres/mildura-central-early-learning-centre/:splat 301!
+http://mychildelc.com.au/main/page_the_team.html/* https://greatstartelc.com.au/about/team/:splat 301!
+http://mychildelc.com.au/main/page_our_centres_mildura_central_child_care_centre_our_educators.html/* https://greatstartelc.com.au/centres/mildura-early-learning-centre/:splat 301!
+http://mychildelc.com.au/main/page_our_centres_east_malvern_early_learning_centre_our_services.html/* https://greatstartelc.com.au/centres/east-malvern-early-learning-centre/:splat 301!
+http://mychildelc.com.au/main/page_our_centres_mildura_early_learning_centre_gallery.html/* https://greatstartelc.com.au/centres/mildura-early-learning-centre/:splat 301!
+http://mychildelc.com.au/main/page_our_centres_mildura_central_child_care_centre_news.html/* https://greatstartelc.com.au/centres/mildura-central-early-learning-centre/:splat 301!
+http://mychildelc.com.au/main/page_our_centres_mildura_early_learning_centre_our_educators.html/* https://greatstartelc.com.au/centres/mildura-early-learning-centre/:splat 301!
+http://mychildelc.com.au/main/page_our_centres_mildura_early_learning_centre_news.html/* https://greatstartelc.com.au/centres/mildura-early-learning-centre/:splat 301!
+http://mychildelc.com.au/main/page_our_centres_mildura_central_child_care_centre_our_services.html/* https://greatstartelc.com.au/centres/mildura-central-early-learning-centre/:splat 301!
+http://mychildelc.com.au/main/page_our_centres_mildura_central_child_care_centre_gallery.html/* https://greatstartelc.com.au/centres/mildura-central-early-learning-centre/:splat 301!
+http://mychildelc.com.au/main/page_our_centres_mildura_early_learning_centre_our_services.html/* https://greatstartelc.com.au/centres/mildura-early-learning-centre/:splat 301!
+http://mychildelc.com.au/main/page_our_centres_east_malvern_early_learning_centre_our_educators.html/* https://greatstartelc.com.au/centres/east-malvern-early-learning-centre/:splat 301!
+http://mychildelc.com.au/main/page_our_centres_east_malvern_early_learning_centre_news.html/* https://greatstartelc.com.au/centres/east-malvern-early-learning-centre/:splat 301!
+http://mychildelc.com.au/main/page_our_centres_east_malvern_early_learning_centre_gallery.html/* https://greatstartelc.com.au/centres/east-malvern-early-learning-centre/:splat 301!

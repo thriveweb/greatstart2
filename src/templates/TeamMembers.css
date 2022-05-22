@@ -1,0 +1,76 @@
+.TeamMembers .Content h2 {
+	font-size: 4.6rem;
+	margin-bottom: 5rem;
+}
+
+.TeamMembers .Content h4 {
+	color: #5dbf88;
+	color: var(--col4);
+}
+
+.TeamMembers .Content ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.TeamMembers .Content li {
+	padding: 0;
+	flex: 0 0 48%;
+	margin-bottom: 8rem;
+}
+
+.TeamMembers .Content li:before {
+	display: none;
+}
+
+.TeamMembers .Content li:last-of-type {
+	flex: 0 0 100%;
+	margin-bottom: 0;
+}
+
+
+@media only screen and (max-width: 1000px) {
+	.TeamMembers .Content li {
+		flex: 0 0 100%;
+	}
+}
+
+@media only screen and (max-width: 770px) {
+	.TeamMembers .Content h2 {
+		font-size: 3.6rem;
+		margin-bottom: 3rem;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.TeamMembers .Content h2 {
+		font-size: 3.8rem;
+	}
+
+	.TeamMembers .Content li {
+		margin-bottom: 4rem;
+	}
+
+	.team-content {
+		padding-bottom: 0;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.TeamMembers .Content h2 {
+		font-size: 2.8rem;
+	}
+
+	.TeamMembers .Content li h4 {
+		font-size: 2.4rem;
+	}
+}
+
+
+
+
+
+
+
+

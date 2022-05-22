@@ -1,0 +1,11 @@
+.ApplicationForm {
+  display: none;
+}
+
+.ApplicationForm.active {
+  display: flex;
+}
+
+.ApplicationForm .Button {
+  align-self: flex-end !important;
+}

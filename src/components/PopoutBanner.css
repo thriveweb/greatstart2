@@ -1,0 +1,67 @@
+.PopoutBanner {
+  padding-top: 0;
+}
+
+.PopoutBanner--Container {
+  display: flex;
+  align-items: center;
+  padding: 5rem 7%;
+  position: relative;
+  z-index: 1;
+}
+
+.PopoutBanner--Image {
+  margin-right: 6rem;
+  width: 30%;
+  height: auto;
+}
+
+.PopoutBanner--Image img {
+  max-width: 100%;
+}
+
+.PopoutBanner--Button {
+  margin-top: 1rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  .PopoutBanner--Image {
+    width: 23%;
+  }
+
+  .PopoutBanner--Content h5 {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .PopoutBanner--Content {
+    flex: 0 0 100%;
+  }
+
+  .PopoutBanner--Image {
+    width: 30%;
+    margin: 0 auto 2rem;
+  }
+
+  .PopoutBanner--Container {
+    text-align: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .PopoutBanner--Image {
+    width: 50%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
