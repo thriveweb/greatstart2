@@ -73,7 +73,9 @@ accordionSection:
           touch with us to update their date of birth and first name.
         title: Can I join the waitlist if my child has not been born yet?
       - content: "Please see the links below to access the Help Guide for the My Family Lounge and the self-help videos so you feel confident using the parent portal to its full potential.\_My Family Portal Help Guide: [myfamilylounge.com.au/My-Family-Lounge/help-guide ](https://myfamilylounge.com.au/My-Family-Lounge/help-guide)\n\nFeel free to watch the self-help videos on the following topics.\_\_ \_[myfamilylounge.com.au/My-Family-Lounge/how-to-videos](https://myfamilylounge.com.au/My-Family-Lounge/how-to-videos) \n\n* How to Register for My Family Lounge\n* How to Create Your First Waitlist Request\n* How to Accept an Offer & Complete the Enrolment Form\n* How to Request a Change to an Existing Booking\n* How to Reset Your Password\n* How to Change Your Email Address for Your MFL Account"
-        title: Do you have a Help Guide for My Family Lounge – QKeYLM and QK Enrol?
+        title: >-
+          Do you have a Help Guide for My Family Lounge – QK Journeys and QK
+          Enrol?
     title: Enrolments
   - accordion:
       - content: >-
