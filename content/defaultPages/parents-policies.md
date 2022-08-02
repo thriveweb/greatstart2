@@ -337,6 +337,10 @@ accordion:
 
       * 8 - Adult Behaviour Policy
 
+      * 12A - Child Safe Standards Policy
+
+      * 12B - Child Protection and Wellbeing Policy
+
 
       #### Priority of Access
 
