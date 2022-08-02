@@ -30,7 +30,7 @@ We do not allow any unauthorised visitors entry to the centre. Your child’s sa
 
 ## Attendance Records: Sign In/Out Using the Kiosk
 
-We utilise QK Kiosk which allows parents and authorised family contacts to electronically sign children in and out by entering a digital pin into the touchscreens located at reception – this is an efficient and sustainable practice. 
+We utilise a Kiosk which allows parents and authorised family contacts to electronically sign children in and out by entering a digital pin into the touchscreens located at reception – this is an efficient and sustainable practice. 
 
 It is important for safety and legal reasons to sign your child in and out each day. If an unfamiliar person is collecting your child, it is your responsibility to update your child’s enrolment form and also inform the Educators.
 
