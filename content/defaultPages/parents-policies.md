@@ -147,7 +147,9 @@ accordion:
 
       * 88 - Child Safe Environment Policy
 
-      * 12 - Child Safety and Protection Policy
+      * 12A - Child Safe Standards Policy
+
+      * 12B - Child Protection and Wellbeing Policy
 
       * 37 - Biting Policy
 
