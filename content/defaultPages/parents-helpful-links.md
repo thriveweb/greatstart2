@@ -15,7 +15,7 @@ meta:
 * Australian Children's Education and Care Quality Authority (ACECQA)
   [www.acecqa.gov.au](https://acecqa.gov.au)
 * Centrelink
-  [www.humanservices.gov.au/customer/subjects/assistance-child-care-fees](https://humanservices.gov.au/customer/subjects/assistance-child-care-fees)
+  <https://www.servicesaustralia.gov.au/>
 * Nutrition Australia
   [www.nutritionaustralia.org](https://nutritionaustralia.org)
 * Multicultural Resource Centre (FKA)
