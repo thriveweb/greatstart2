@@ -30,10 +30,14 @@ We look forward to welcoming you and your family.
 
 **To find out more about our early learning offering [contact us](/contact/) today**
 
-
-
-
-
 ## Acknowledgement of Country
 
 We are proud to acknowledge the Aboriginal and Torres Strait Islander people as the traditional custodians of this land, in which we live, love and play. We pay my respects to the Elders past, present and emerging, for they hold the memories, the traditions, the culture and hopes of Aboriginal and Torres Strait Islander peoples across the nation.
+
+## Child Safe Standards - Our Statement of Commitment
+
+Our organisation has a strong commitment to child safety, wellbeing and protection, through implementing and adherence to the Child Safe Standards and the Information Sharing Scheme. This commitment extends to all children in our service and community with an aim for children to feel safe, secure and supported. The welfare of the children in our care will always be our first priority and we have a zero-tolerance approach to child abuse and harm.  We acknowledge the importance of our organisation and community to be committed to culturally safety of aboriginal children, the cultural safety for culturally and/or linguistically diverse children and safety of children with a disability. 
+
+
+
+For further information please refer to our Child Safe Standards Policy and Child Protection and Wellbeing Policy in the Centre Policy Handbook or discuss with the Centre Director or Responsible Person in Charge.
