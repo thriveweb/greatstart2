@@ -28,8 +28,8 @@ accordion:
       babies. There are areas for sleep, relaxing and personal space and the
       opportunity for outdoor experiences in the fresh air. And so that you
       don’t miss out on all those little things that happen each day, your child
-      has their own personal online learning portfolio in QK Journeys that
-      captures their learning and development as it unfolds.
+      has their own personal online learning portfolio that captures their
+      learning and development as it unfolds.
     title: Infant Education and Care
   - content: >-
       For a toddler the world is a magical place, full of constant learning and
@@ -48,8 +48,8 @@ accordion:
       play, structured play, group times for music and language, and outdoor
       experiences. Our encouraging and nurturing educators are sensitive to the
       individual needs of each toddler’s social and emotional development. And
-      each child has their own personal online learning portfolio in QK Journeys
-      which helps you follow them on their exciting journey of self-discovery.
+      each child has their own personal online learning portfolio which helps
+      you follow them on their exciting journey of self-discovery.
     title: Toddler Education and Care
   - content: >-
       As 3-year old’s start coming into their own, it’s important they have time
@@ -64,8 +64,8 @@ accordion:
       language, music, communications and problem-solving skills. And because
       3-year old’s also have so much energy to burn, our exciting outdoor play
       areas offer plenty of room for active play. Your child will also have
-      their own personal online learning portfolio in QK Journeys so you can see
-      what they’ve been up to each day.
+      their own personal online learning portfolio so you can see what they’ve
+      been up to each day.
     title: Prekindergarten Education and Care
   - content: >-
       Our approved kindergarten program, with a bachelor qualified teacher,
